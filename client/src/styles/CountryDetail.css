@@ -1,0 +1,90 @@
+/** @format */
+
+.countryDetailContainer {
+    font-family: "Samsung";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.countryDetailContainer h3{
+    margin-top: -0.1rem;
+    margin-bottom: -0.1rem;
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+
+.countryDetailContainer p{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.countryInfoContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    border-radius: 1rem;
+    box-shadow: 0 8px 60px rgba(102, 94, 94, 0.3);
+    background-color: rgba(0,0,0,.1);
+    box-shadow: 7px 3px 10px rgb(47 79 79 / 61%);
+    width: 50%;
+    position: relative;
+}
+.loaderCountryDetail{
+    font-size: 3rem;
+}
+.countryDetailName{
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 700px;
+    position: absolute;
+    text-align: center;
+    top:0;
+}
+.actividades-contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.countryDetailImg {
+    width: 250px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.detailInfo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 5rem;
+    width: 250px;
+}
+.countryDetailPopulation{
+    display: flex;
+    flex-direction: column;
+}
+.activities{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.backToCountries{
+    position: absolute;
+    right:2rem;
+    top:2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Samsung';
+    align-items: center;
+    background: #000;
+    color:white;
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+    justify-content: space-between;
+    padding: .8rem;
+    cursor: pointer;
+
+
+}

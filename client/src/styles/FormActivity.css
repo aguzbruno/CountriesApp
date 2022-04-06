@@ -1,0 +1,164 @@
+.activityContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Samsung';
+    width: 40%;
+    transform: translate(73.33%);
+    border-radius: 2rem;
+    box-shadow: 0 8px 60px rgba(102, 94, 94, 0.3);
+    background-color: rgba(0,0,0,.1);
+    margin-top: 3rem;
+
+
+}
+.activityContainer h1{
+    font-size: 2rem;
+}
+.activityContainer p {
+    font-size: 1.3rem;
+}
+.activityContainer input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    padding: .2rem;
+    height:1rem;
+    width: 15rem;
+    text-align: center;
+    font-family: 'Samsung';
+}
+
+.activityContainer select {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .2rem;
+    height:2rem;
+    width: 15rem;
+    text-align: center;
+    font-family: 'Samsung';
+}
+.flagContainer{
+    position: relative;
+}
+.flagsContainer{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction:row;
+    gap:1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+
+}
+.bandera{
+    width: 80px;
+    height: 80px;
+    display: block;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.botonDelete{
+    font-size: 1rem;
+    font-weight: 900;
+    height: 2rem;
+    right: -1rem;
+    top:-1rem;
+    position: absolute;
+    cursor:pointer;
+    color:red;
+    border:transparent;
+    background-color: transparent;
+}
+.addCountryContainer{
+    display:flex;
+    width:20rem;
+    align-items: center;
+    gap:1.2rem;
+
+}
+.addCountry{
+    font-family: 'Samsung';
+    align-items: center;
+    background: #000;
+    color:white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    justify-content: space-between;
+    padding: .2rem;
+    height:2.5rem;
+    width: 5rem;
+    cursor: pointer;
+
+}
+.activityContainer textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border: 3px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: .2rem;
+    height:4rem;
+    width: 20rem;
+    font-family: 'Samsung';
+    resize: none;
+
+}
+
+.dificultyStars{
+    display: flex;
+    
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-items: center;
+}
+.dificultyStars button{
+    font-size: 1.5rem;
+    height: 2rem;
+    cursor:pointer;
+    color:gray;
+    border:transparent;
+    background-color: transparent;
+}
+.dificultyStars button:hover ~ button{
+    color: orange;
+}
+.dificultyStars button:hover{
+  color: orange;
+}
+
+.buttonsActivity{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    gap:1rem;
+    align-items: flex-start;
+}
+.buttonsActivity button {
+    font-family: 'Samsung';
+    align-items: center;
+    background: #000;
+    color:white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    justify-content: space-between;
+    padding: .2rem;
+    height:2rem;
+    width: 10rem;
+    cursor: pointer;
+}

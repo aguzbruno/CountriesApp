@@ -1,0 +1,96 @@
+
+.allCountriesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.fullSize{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 75%;
+    border-radius: 1rem;
+    position: relative;
+    font-family: 'Samsung';
+    user-select: none; 
+}
+
+.orderBy{
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    margin:1rem;
+    position: absolute;
+    right:10rem;
+    top:-2rem;
+
+}
+.loader{
+    position: absolute;
+    right: 500px;
+    font-size: 2rem;
+    top:200px;
+}
+.filtros{position: absolute;
+    left:2rem;
+    top:15rem;
+
+}
+.filtros p{
+    text-align: center;
+}
+.orderBy select{
+    margin-left: 1rem;
+    background-color: transparent;
+    border: none;
+    height: 1.5rem;
+    font-family: 'Samsung';
+}
+
+.orderByName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    padding: .2rem;
+    width: 100%;
+}
+.orderByName select{
+    background-color: transparent;
+    border: none;
+    height: 1.5rem;
+    font-family: 'Samsung';
+}
+.filterContinent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    padding: .2rem;
+    width: 100%;
+    
+
+}
+.filterContinent select{
+    margin-left: 1rem;
+    background-color: transparent;
+    border: none;
+    height: 1.5rem;
+    font-family: 'Samsung';
+}
+
+/* @media only screen and (max-width: 1300px){
+
+} */

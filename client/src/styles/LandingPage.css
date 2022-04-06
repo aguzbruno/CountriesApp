@@ -1,0 +1,43 @@
+
+.button-landing{
+text-decoration:none;
+font-family:Samsung;
+color:#000;
+z-index:1;
+font-size:36px;
+position:relative;
+text-align: center;
+background-color:#fff;
+border-radius:1rem;
+padding:.5rem;
+padding-left:1rem;
+padding-right:1rem;
+cursor:pointer;
+width:10rem;
+}
+
+.video{
+    
+    background-size: cover;
+    z-index: -1;
+    position: absolute;  
+    
+}
+.landing-contenedor{
+    position: absolute;
+    top:40%;
+    left:45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60rem;
+    margin: auto;
+    z-index: 1;
+}
+.landing-contenedor h1{
+    font-family:'Samsung';
+    color:white;
+    z-index: 1;
+    font-size: 48px;
+    user-select: none;
+}
