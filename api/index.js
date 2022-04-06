@@ -22,6 +22,7 @@ const { conn } = require('./src/db.js');
 const getApiInfo = require('./src/controllers/getApiInfo.js')
 const createActivityDb = require('./src/controllers/createActivityDb.js')
 const {Country } = require('./src/db.js');
+const PORT = process.env.PORT
 const activities = require("./src/data/activities");
 
 // Syncing all the models at once.
@@ -38,7 +39,7 @@ conn.sync({ force: true })
     } catch (err) {
       console.log(err);
     }
-    server.listen(3001, () => {
+    server.listen(PORT, () => {
       console.log('%s listening at 3001'); // eslint-disable-line no-console
     });
   });
